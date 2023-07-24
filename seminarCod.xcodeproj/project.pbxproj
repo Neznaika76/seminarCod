@@ -23,6 +23,10 @@
 		BCF812782A6E7F1A009ABDA6 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812772A6E7F1A009ABDA6 /* GroupCell.swift */; };
 		BCF8127A2A6E7F32009ABDA6 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812792A6E7F32009ABDA6 /* PhotoCell.swift */; };
 		BCF8127C2A6E7F4E009ABDA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8127B2A6E7F4E009ABDA6 /* Constants.swift */; };
+		BCF8127E2A6ED373009ABDA6 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8127D2A6ED373009ABDA6 /* NetworkService.swift */; };
+		BCF812802A6ED744009ABDA6 /* FriendsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8127F2A6ED744009ABDA6 /* FriendsModel.swift */; };
+		BCF812822A6EDC0B009ABDA6 /* GroupsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812812A6EDC0B009ABDA6 /* GroupsModel.swift */; };
+		BCF812842A6EDE0C009ABDA6 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812832A6EDE0C009ABDA6 /* PhotosModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +67,10 @@
 		BCF812772A6E7F1A009ABDA6 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		BCF812792A6E7F32009ABDA6 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		BCF8127B2A6E7F4E009ABDA6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BCF8127D2A6ED373009ABDA6 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		BCF8127F2A6ED744009ABDA6 /* FriendsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsModel.swift; sourceTree = "<group>"; };
+		BCF812812A6EDC0B009ABDA6 /* GroupsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsModel.swift; sourceTree = "<group>"; };
+		BCF812832A6EDE0C009ABDA6 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +135,10 @@
 				BCF812772A6E7F1A009ABDA6 /* GroupCell.swift */,
 				BCF812792A6E7F32009ABDA6 /* PhotoCell.swift */,
 				BCF8127B2A6E7F4E009ABDA6 /* Constants.swift */,
+				BCF8127D2A6ED373009ABDA6 /* NetworkService.swift */,
+				BCF8127F2A6ED744009ABDA6 /* FriendsModel.swift */,
+				BCF812812A6EDC0B009ABDA6 /* GroupsModel.swift */,
+				BCF812832A6EDE0C009ABDA6 /* PhotosModel.swift */,
 			);
 			path = seminarCod;
 			sourceTree = "<group>";
@@ -287,7 +299,11 @@
 				BCF812402A6E74C6009ABDA6 /* SceneDelegate.swift in Sources */,
 				BCF8127A2A6E7F32009ABDA6 /* PhotoCell.swift in Sources */,
 				BCF812742A6E7BEF009ABDA6 /* PhotosViewController.swift in Sources */,
+				BCF812802A6ED744009ABDA6 /* FriendsModel.swift in Sources */,
 				BCF8126E2A6E75FA009ABDA6 /* NewViewController.swift in Sources */,
+				BCF812842A6EDE0C009ABDA6 /* PhotosModel.swift in Sources */,
+				BCF812822A6EDC0B009ABDA6 /* GroupsModel.swift in Sources */,
+				BCF8127E2A6ED373009ABDA6 /* NetworkService.swift in Sources */,
 				BCF812702A6E7BA9009ABDA6 /* FriendViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
