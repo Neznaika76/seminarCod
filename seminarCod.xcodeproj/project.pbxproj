@@ -16,6 +16,13 @@
 		BCF8125F2A6E74C8009ABDA6 /* seminarCodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8125E2A6E74C8009ABDA6 /* seminarCodUITests.swift */; };
 		BCF812612A6E74C8009ABDA6 /* seminarCodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812602A6E74C8009ABDA6 /* seminarCodUITestsLaunchTests.swift */; };
 		BCF8126E2A6E75FA009ABDA6 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8126D2A6E75FA009ABDA6 /* NewViewController.swift */; };
+		BCF812702A6E7BA9009ABDA6 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8126F2A6E7BA9009ABDA6 /* FriendViewController.swift */; };
+		BCF812722A6E7BCD009ABDA6 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812712A6E7BCD009ABDA6 /* GroupsViewController.swift */; };
+		BCF812742A6E7BEF009ABDA6 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812732A6E7BEF009ABDA6 /* PhotosViewController.swift */; };
+		BCF812762A6E7EFD009ABDA6 /* FriendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812752A6E7EFD009ABDA6 /* FriendCell.swift */; };
+		BCF812782A6E7F1A009ABDA6 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812772A6E7F1A009ABDA6 /* GroupCell.swift */; };
+		BCF8127A2A6E7F32009ABDA6 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812792A6E7F32009ABDA6 /* PhotoCell.swift */; };
+		BCF8127C2A6E7F4E009ABDA6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8127B2A6E7F4E009ABDA6 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		BCF8125E2A6E74C8009ABDA6 /* seminarCodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seminarCodUITests.swift; sourceTree = "<group>"; };
 		BCF812602A6E74C8009ABDA6 /* seminarCodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seminarCodUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BCF8126D2A6E75FA009ABDA6 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		BCF8126F2A6E7BA9009ABDA6 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
+		BCF812712A6E7BCD009ABDA6 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
+		BCF812732A6E7BEF009ABDA6 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		BCF812752A6E7EFD009ABDA6 /* FriendCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendCell.swift; sourceTree = "<group>"; };
+		BCF812772A6E7F1A009ABDA6 /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		BCF812792A6E7F32009ABDA6 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		BCF8127B2A6E7F4E009ABDA6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,13 @@
 				BCF812482A6E74C8009ABDA6 /* LaunchScreen.storyboard */,
 				BCF8124B2A6E74C8009ABDA6 /* Info.plist */,
 				BCF8126D2A6E75FA009ABDA6 /* NewViewController.swift */,
+				BCF8126F2A6E7BA9009ABDA6 /* FriendViewController.swift */,
+				BCF812712A6E7BCD009ABDA6 /* GroupsViewController.swift */,
+				BCF812732A6E7BEF009ABDA6 /* PhotosViewController.swift */,
+				BCF812752A6E7EFD009ABDA6 /* FriendCell.swift */,
+				BCF812772A6E7F1A009ABDA6 /* GroupCell.swift */,
+				BCF812792A6E7F32009ABDA6 /* PhotoCell.swift */,
+				BCF8127B2A6E7F4E009ABDA6 /* Constants.swift */,
 			);
 			path = seminarCod;
 			sourceTree = "<group>";
@@ -257,10 +278,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCF812782A6E7F1A009ABDA6 /* GroupCell.swift in Sources */,
+				BCF8127C2A6E7F4E009ABDA6 /* Constants.swift in Sources */,
 				BCF812422A6E74C6009ABDA6 /* ViewController.swift in Sources */,
 				BCF8123E2A6E74C6009ABDA6 /* AppDelegate.swift in Sources */,
+				BCF812722A6E7BCD009ABDA6 /* GroupsViewController.swift in Sources */,
+				BCF812762A6E7EFD009ABDA6 /* FriendCell.swift in Sources */,
 				BCF812402A6E74C6009ABDA6 /* SceneDelegate.swift in Sources */,
+				BCF8127A2A6E7F32009ABDA6 /* PhotoCell.swift in Sources */,
+				BCF812742A6E7BEF009ABDA6 /* PhotosViewController.swift in Sources */,
 				BCF8126E2A6E75FA009ABDA6 /* NewViewController.swift in Sources */,
+				BCF812702A6E7BA9009ABDA6 /* FriendViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

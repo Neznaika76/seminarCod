@@ -54,7 +54,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
-        
+        button.addTarget(self, action: #selector(buttonClick), for: .touchUpInside)
         setConstraint()
     }
     
@@ -105,7 +105,26 @@ class ViewController: UIViewController {
     }
     
     @objc func buttonClick(){
-        navigationController?.pushViewController(NewViewController(), animated: false)
+        
+        let tab1 = UINavigationController(rootViewController:FriendViewController())
+        let tab2 = UINavigationController(rootViewController: GroupsViewController())
+        let tab3 = UINavigationController(rootViewController: PhotosViewController(collectionViewLayout: UICollectionViewFlowLayout()))
+        
+        tab1.tabBarItem.title = "Friends"
+        tab2.tabBarItem.title = "Groups"
+        tab3.tabBarItem.title = "Photos"
+        
+        let controllers = [tab1, tab2, tab3]
+        
+        let tabBarController = UITabBarController()
+        tabBarController.viewControllers = controllers
+        
+        guard let firstScene = UIApplication.shared.connectedScenes.first as? UIWindowScene,
+              let firstWindow = firstScene.windows.first else {
+            return
+        }
+        
+        firstWindow.rootViewController = tabBarController
     }
 }
 
