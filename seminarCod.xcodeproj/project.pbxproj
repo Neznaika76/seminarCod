@@ -15,7 +15,6 @@
 		BCF812552A6E74C8009ABDA6 /* seminarCodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812542A6E74C8009ABDA6 /* seminarCodTests.swift */; };
 		BCF8125F2A6E74C8009ABDA6 /* seminarCodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8125E2A6E74C8009ABDA6 /* seminarCodUITests.swift */; };
 		BCF812612A6E74C8009ABDA6 /* seminarCodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812602A6E74C8009ABDA6 /* seminarCodUITestsLaunchTests.swift */; };
-		BCF8126E2A6E75FA009ABDA6 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8126D2A6E75FA009ABDA6 /* NewViewController.swift */; };
 		BCF812702A6E7BA9009ABDA6 /* FriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8126F2A6E7BA9009ABDA6 /* FriendViewController.swift */; };
 		BCF812722A6E7BCD009ABDA6 /* GroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812712A6E7BCD009ABDA6 /* GroupsViewController.swift */; };
 		BCF812742A6E7BEF009ABDA6 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812732A6E7BEF009ABDA6 /* PhotosViewController.swift */; };
@@ -59,7 +58,6 @@
 		BCF8125A2A6E74C8009ABDA6 /* seminarCodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seminarCodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF8125E2A6E74C8009ABDA6 /* seminarCodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seminarCodUITests.swift; sourceTree = "<group>"; };
 		BCF812602A6E74C8009ABDA6 /* seminarCodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = seminarCodUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BCF8126D2A6E75FA009ABDA6 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 		BCF8126F2A6E7BA9009ABDA6 /* FriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewController.swift; sourceTree = "<group>"; };
 		BCF812712A6E7BCD009ABDA6 /* GroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewController.swift; sourceTree = "<group>"; };
 		BCF812732A6E7BEF009ABDA6 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 				BCF812462A6E74C8009ABDA6 /* Assets.xcassets */,
 				BCF812482A6E74C8009ABDA6 /* LaunchScreen.storyboard */,
 				BCF8124B2A6E74C8009ABDA6 /* Info.plist */,
-				BCF8126D2A6E75FA009ABDA6 /* NewViewController.swift */,
 				BCF8126F2A6E7BA9009ABDA6 /* FriendViewController.swift */,
 				BCF812712A6E7BCD009ABDA6 /* GroupsViewController.swift */,
 				BCF812732A6E7BEF009ABDA6 /* PhotosViewController.swift */,
@@ -300,7 +297,6 @@
 				BCF8127A2A6E7F32009ABDA6 /* PhotoCell.swift in Sources */,
 				BCF812742A6E7BEF009ABDA6 /* PhotosViewController.swift in Sources */,
 				BCF812802A6ED744009ABDA6 /* FriendsModel.swift in Sources */,
-				BCF8126E2A6E75FA009ABDA6 /* NewViewController.swift in Sources */,
 				BCF812842A6EDE0C009ABDA6 /* PhotosModel.swift in Sources */,
 				BCF812822A6EDC0B009ABDA6 /* GroupsModel.swift in Sources */,
 				BCF8127E2A6ED373009ABDA6 /* NetworkService.swift in Sources */,
