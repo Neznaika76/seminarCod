@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCB1CC092A7CF213001B38BE /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB1CC082A7CF213001B38BE /* ProfileViewController.swift */; };
+		BCB1CC0B2A7D0F05001B38BE /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB1CC0A2A7D0F05001B38BE /* UserModel.swift */; };
 		BCF8123E2A6E74C6009ABDA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8123D2A6E74C6009ABDA6 /* AppDelegate.swift */; };
 		BCF812402A6E74C6009ABDA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF8123F2A6E74C6009ABDA6 /* SceneDelegate.swift */; };
 		BCF812422A6E74C6009ABDA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF812412A6E74C6009ABDA6 /* ViewController.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BCB1CC082A7CF213001B38BE /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BCB1CC0A2A7D0F05001B38BE /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		BCF8123A2A6E74C6009ABDA6 /* seminarCod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seminarCod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCF8123D2A6E74C6009ABDA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCF8123F2A6E74C6009ABDA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +140,8 @@
 				BCF8127F2A6ED744009ABDA6 /* FriendsModel.swift */,
 				BCF812812A6EDC0B009ABDA6 /* GroupsModel.swift */,
 				BCF812832A6EDE0C009ABDA6 /* PhotosModel.swift */,
+				BCB1CC082A7CF213001B38BE /* ProfileViewController.swift */,
+				BCB1CC0A2A7D0F05001B38BE /* UserModel.swift */,
 			);
 			path = seminarCod;
 			sourceTree = "<group>";
@@ -297,8 +303,10 @@
 				BCF8127A2A6E7F32009ABDA6 /* PhotoCell.swift in Sources */,
 				BCF812742A6E7BEF009ABDA6 /* PhotosViewController.swift in Sources */,
 				BCF812802A6ED744009ABDA6 /* FriendsModel.swift in Sources */,
+				BCB1CC0B2A7D0F05001B38BE /* UserModel.swift in Sources */,
 				BCF812842A6EDE0C009ABDA6 /* PhotosModel.swift in Sources */,
 				BCF812822A6EDC0B009ABDA6 /* GroupsModel.swift in Sources */,
+				BCB1CC092A7CF213001B38BE /* ProfileViewController.swift in Sources */,
 				BCF8127E2A6ED373009ABDA6 /* NetworkService.swift in Sources */,
 				BCF812702A6E7BA9009ABDA6 /* FriendViewController.swift in Sources */,
 			);
